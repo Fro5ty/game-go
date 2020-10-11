@@ -1,0 +1,139 @@
+<!--Course Project - Parody Purposes Only - Not A Real Shop-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>GameGo - Contact Us</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Barlow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <p class="disclaimer">This was created for a class project. This is <strong>NOT</strong> a real shop. PARODY PURPOSES <strong>ONLY</strong>!</p>
+    <header>
+      <h1 class="logo"><a href="index.html">Game<span class="go">Go</span></a></h1>      <input type="search" placeholder="Search...">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <aside>
+      <h2>Shop By:</h2>
+      <section>
+        <h3>Category</h3>
+        <hr>
+        <ul>
+          <li><ins>All Games</ins></li>
+          <li><ins>Action</ins></li>
+          <li><ins>Adventure</ins></li>
+          <li><ins>Indie</ins></li>
+          <li><ins>Racing</ins></li>
+          <li><ins>Simulation</ins></li>
+        </ul>
+      </section>
+      <section>
+        <h3>Price ($)</h3>
+        <hr>
+        <ul>
+          <li><mark><ins>On Sale</ins></mark></li>
+          <li><ins>Under $10</ins></li>
+          <li><ins>$11-$30</ins></li>
+          <li><ins>$31-$59</ins></li>
+          <li><ins>$60 +</ins></li>
+        </ul>
+      </section>
+    </aside>
+
+    <main>
+      <h2>Contact Us:</h2>
+
+      <form>
+        <div class="inline">
+          <label for="name">Name:</label><input type="text" placeholder="First and Last Name" id="name" name="name">
+        </div>
+
+        <div class="inline">
+          <label for="email">E-mail:</label><input type="text" placeholder="example@website.com" id="email" name="email">
+        </div>
+
+        <div class="inline">
+          <label for="message">Message:</label><textarea cols="30" rows="5" id="message" name="message"></textarea>
+        </div>
+
+        <div class="inline">
+          <label for="subject">Subject:</label>
+          <select id="subject" name="subject">
+            <optgroup label="Product Issues">
+              <option value="returns">Returns</option>
+              <option value="faulty">Faulty Game</option>
+            </optgroup>
+            <optgroup label="Shipping">
+              <option value="delivery">Delivery</option>
+              <option value="tracking">Tracking</option>
+            </optgroup>
+            <optgroup label="Other">
+              <option value="request">Requests</option>
+              <option value="other">Other</option>
+            </optgroup>
+          </select>
+        </div>
+
+        <!-- <div>
+          <label for="subject">Subject:</label>
+          <input type="text" list="subjects" id="subject" name="subject" placeholder="Subject">
+          <datalist id="subjects">
+            <option value="returns">
+            <option value="faulty">
+            <option value="delivery">
+            <option value="tracking">
+            <option value="request">
+            <option value="other">
+          </datalist>
+        </div> -->
+
+        <div>
+          <p>Subscribe to future offers by:</p>
+          <label for="newsletter">Newsletter</label>
+          <input type="checkbox" id="newsletter" name="subscribe" value="newsletter">
+
+          <label for="enews">E-mail</label>
+          <input type="checkbox" id="enews" name="subscribe" value="email">
+        </div>
+
+        <div>
+          <p>How would you like to recieve your response?</p>
+          <label for="phoneResponse">Phone</label>
+          <input type="radio" id="phoneResponse" name="response" value="phoneR">
+
+          <label for="emailResponse">E-Mail</label>
+          <input type="radio" id="emailResponse" name="response" value="emailR">
+        </div>
+
+        <div>
+          <input type="submit" id="submit" name="submit">
+          <input type="reset" id="reset" name="reset">
+          <!-- <button type="submit" id="submit" name="submit">Submit</button>
+          <button type="reset" id="reset" name="reset">Reset</button> -->
+        </div>
+      </form>
+
+      <iframe width="600" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJvUV2u8eEf4gRhezHyOoeFRg&key=AIzaSyARfX55U5Mvq7caaymBOWHEN6qKHA60mZI" allowfullscreen>
+        <p>Your browser does not support iframes.</p>
+      </iframe>
+    </main>
+
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">Shop</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </footer>
+  </body>
+</html>

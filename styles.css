@@ -1,0 +1,190 @@
+html {
+  background: #f7f7f7;
+}
+
+/* Disclaimer */
+.disclaimer {
+  /* display: inline-block; */
+  line-height: 18px;
+  background: crimson;
+  margin: auto;
+  text-align: center;
+  text-decoration: underline;
+  font-weight: 500;
+}
+/* Disclaimer */
+
+.logo {
+  color: black;
+}
+
+.go {
+  /* color: #DA362C; */
+  color: #00e600;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background: white;
+  max-width: 1000px;
+  margin: 0 auto;
+  color: rgb(49, 46, 46)
+}
+
+.product {
+  border: 1px solid grey;
+  width: 300px;
+  margin: 5px;
+  padding: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  height: 450px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  line-height: 25px;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #00e600
+}
+
+header li {
+  display: inline;
+}
+
+header h1, nav {
+  display: inline-block;
+}
+
+nav {
+  padding-left: 70px;
+}
+
+nav li {
+  padding: 2px;
+}
+
+header h1 {
+  width: 30%;
+  font-size: 60px;
+  line-height: 0px;
+}
+
+input[type="search"] {
+  width: 450px;
+  height: 30px;
+}
+
+main {
+  width: 680px;
+  display: inline-block;
+  padding: 10px;
+}
+
+aside {
+  width: 270px;
+  display: inline-block;
+  vertical-align: top;
+  padding: 10px;
+}
+
+.button {
+  padding: 10px 35px 10px 35px;
+  display: inline-block;
+}
+
+.button:last-of-type {
+  background: #00e600;
+  color: black;
+}
+
+small:first-of-type {
+  color: red;
+}
+
+/*Game Info Page*/
+
+.product-detail {
+  width: 660px;
+}
+
+.product-detail img {
+  max-width: 50%;
+  float: left;
+}
+
+.detailbutton {
+  background: rgb(241, 241, 241);
+  color: black;
+}
+
+table {
+  width: 400px;
+  text-align: left;
+  margin: 20px 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+caption {
+  font-weight: bold;
+  font-style: italic;
+  border-bottom: 1px dotted;
+  padding: 10px;
+}
+
+th, td {
+  padding: 10px;
+  border: 1px solid grey;
+}
+
+tr:hover {
+  background: rgb(241, 241, 241);
+}
+
+/* Contact Us */
+
+form {
+  padding: 10px;
+  margin: 10px 0;
+  width: 600px;
+}
+
+form > div {
+  margin: 10px 0;
+}
+
+.inline label {
+  display: inline-block;
+  width: 100px;
+}
+
+input[type="text"], input[type='email'], textarea {
+  padding: 10px;
+  width: 400px;
+}
+
+header, footer {
+  font-family: 'Impact', Charcoal, sans-serif;
+  /* background: #333a40; */
+  background:rgb(241, 241, 241);
+  /* color: #00e600; */
+  color: rgb(49, 46, 46);
+  padding: 20px 10px;
+}
